@@ -46,6 +46,14 @@ const plugins = [
       secret_key: "<PAYSTACK_SECRET_KEY >",
     },
   },
+   {
+    resolve: "@medusajs/admin",
+    /** @type {import('@medusajs/admin').PluginOptions} */
+    options: {
+      autoRebuild: true,
+      // other options...
+    },
+  },
 
 
   {
